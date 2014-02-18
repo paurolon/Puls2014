@@ -3,20 +3,24 @@
 <head>
 		<meta charset="utf-8" />
 		<meta name="description" content="Proyecto de la primera generaciondel 2014" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 		<title>Prueba</title>
 		<link rel="stylesheet" href="normalize.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
+
 	<header>
 		<figure id="logo">
 			<img src="logo.png"/>
 		</figure>
-		<h1>Puls2014: Comunidad de personas</h1>
+		<h1>Puls2014: Comunidad de personas hermosadsdss</h1>
 		<figure id="avatar">
 			<img src="avatar.jpg"/>
 		</figure>
 	</header>
+
 	<nav>
 		<ul>
 			<li><a href="#">Phyton</a></li>
@@ -25,10 +29,18 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#">Publicar</a>
+				<a href="#" class="icon-pencil">Publicar</a>
 			</li>
 		</ul>	
 	</nav>
+
+	<aside>	
+		<video width="320" heigth="240" controls autoplay>
+			<source src="movie.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag
+		</video>
+	</aside>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
@@ -43,17 +55,19 @@
 				<span class="fecha_item">Hace <strong>5</strong> min</span>
 			</div>
 			<div class="votacion">
-				<a href="#"class="up"></a>
+				<a href="#"class="up icon-arrow-up"></a>
 				123
-				<a href="#"class="down"></a>
+				<a href="#"class="down icon-arrow-down"></a>
 				<a href="#"class="comentarios_item">3</a>
-				<a href="#"class="guardar_item">X</a>
+				<a href="#"class="guardar_item icon-star"></a>
 			</div>
 		</article>
 	</section>
+
 	<footer>
 		<p><strong>Powered by Pony</strong></p>
 		<p>mejorando.la 2013</p>
 	</footer>
+
 </body>
 </html>
